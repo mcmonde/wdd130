@@ -1,15 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --primary-color: #144389;
+    --secondary-color: #1B3172;
+    --accent1-color: #CED5E3;
+    --accent2-color: #1C3F80;
+
+    --heading-font: "Oswald", arial;
+    --paragraph-font: "Open Sans", sans-serif;
+
+    --nav-background-color: #CED5E3;
+    --nav-link-color: #1C3F80;
+    --nav-hover-link-color: #fff;
+    --nav-hover-background-color: #1C3F80;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paragraph-font);
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
 }
+
 nav a {
     color: white;
     display: block;
     padding: 20px;
 }
+
 h1 {
     color: steelblue;
 }
+
 img {
     width: 150px;
     height: auto;
@@ -17,31 +47,57 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px rgba(128, 128, 128, 1);
 }
+
 p {
     padding: 0;
 }
+
 main {
+    margin: 1rem;
     max-width: 840px;
 }
+
 main img {
     width: 150px;
     height: auto;
+    float: right;
 }
+
 aside {
-    width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    width: 20rem;
     text-align: center;
+    position: relative;
 }
+
 aside img {
     width: 200px;
     height: auto;
+    float: none;
 }
+
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #743269;
+}
+
+.indent {
+    padding: 1rem 2rem;
 }

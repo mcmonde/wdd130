@@ -238,14 +238,14 @@ button:hover {
     padding: 5px;
     max-width: 220px;
     margin: 0 auto;
-    height: 300px; /* Set a fixed height for the figure */
+    height: 300px;
 }
 
 .adventure figure img,
 .team figure img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    object-fit: cover;
 }
 
 .adventure figcaption,

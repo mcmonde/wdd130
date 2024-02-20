@@ -22,7 +22,7 @@
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 960px;
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -307,3 +307,17 @@ button:hover {
 .iframe-container iframe {
     width: 100%;
 }
+
+.hero {
+    width: 100%;
+    text-align: justify;
+    grid-column: span 2; /* Spanning both columns */
+}
+
+/*main {*/
+/*    max-width: 90%;*/
+/*    margin: 0 auto;*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr;*/
+/*    gap: 20px; !* Add some gap between columns *!*/
+/*}*/

@@ -134,7 +134,7 @@ button {
     background-color: var(--primary-color);
     color: #fff;
     border: none;
-    border-radius: .3rem;
+    border-radius: 4px;
     padding: .5rem;
     font-size: 1.2rem;
     cursor: pointer;
@@ -308,16 +308,37 @@ button:hover {
     width: 100%;
 }
 
-.hero {
-    width: 100%;
-    text-align: justify;
-    grid-column: span 2; /* Spanning both columns */
+.reserve-button {
+    margin-top: 12px;
 }
 
-/*main {*/
-/*    max-width: 90%;*/
-/*    margin: 0 auto;*/
-/*    display: grid;*/
-/*    grid-template-columns: 1fr 1fr;*/
-/*    gap: 20px; !* Add some gap between columns *!*/
-/*}*/
+.home-button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 1px solid #144389;
+    border-radius: 4px;
+    padding: .5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    min-width: 300px;
+}
+
+.home-button:hover {
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 4px;
+    padding: .5rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    min-width: 300px;
+    border: 1px solid #144389;
+}

@@ -142,8 +142,31 @@ button {
 }
 
 button:hover {
+    font-size: 1.4rem;
     background-color:  var(--nav-hover-background-color);
 }
+
+table {
+    border: 0.1px solid var(--primary-color);
+    justify-content: center;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+th {
+    background-color: var(--accent2-color);
+    border: .1px solid var(--primary-color);
+    padding: 1rem;
+}
+
+td {
+    background-color: var(--accent1-color);
+    border: .1px solid var(--primary-color);
+    padding: 0.5rem;
+}
+
 
 /*Class Selector*/
 
@@ -189,7 +212,7 @@ button:hover {
 
 .hero article {
     position: absolute;
-    background-color: rgba(var(--accent2-color), 0.5);
+    background-color: rgba(var(--accent2-color), 0.8);
     width: 80%;
     padding: 12px;
     left: 50%;
@@ -210,6 +233,17 @@ button:hover {
     display: grid;
     text-align: justify;
     grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.trips {
+    display: grid;
+    text-align: justify;
+    grid-template-columns: 1fr;
+}
+
+.trips p {
+    margin-top: 1rem;
 }
 
 .history img {
@@ -308,21 +342,15 @@ button:hover {
     width: 100%;
 }
 
-.reserve-button {
-    margin-top: 12px;
-}
-
 .home-button {
     position: absolute;
-    top: 70%;
-    left: 50%;
+    bottom: 10%;
+    left: 40%;
     text-decoration: none;
     text-align: center;
-    margin: auto;
     background-color: var(--primary-color);
     color: #fff;
     border: 1px solid #144389;
-    border-radius: 4px;
     padding: .5rem;
     font-size: 1.2rem;
     cursor: pointer;
@@ -335,10 +363,31 @@ button:hover {
     margin: auto;
     background-color: var(--primary-color);
     color: #fff;
-    border-radius: 4px;
     padding: .5rem;
     font-size: 1.3rem;
     cursor: pointer;
     min-width: 300px;
-    border: 1px solid #144389;
+    border: 1px solid #1C3F80;
+}
+
+.reserve-button {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #144389;
+    color: white;
+    text-align: center;
+    margin: 1rem 4rem;
+    padding: 8px;
+}
+
+.reserve-button:hover {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #4675cf;
+    color: white;
+    text-align: center;
+    margin: 1rem 4rem;
+    padding: 8px;
 }
